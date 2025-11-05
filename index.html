@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RealDiary | Your Personal Digital Diary</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">📘 RealDiary</div>
+    <ul class="nav-links">
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html" class="signup-btn">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to <span>RealDiary</span></h1>
+    <p>Your memories, your style, your privacy.</p>
+    <a href="#books" class="cta-btn">Explore Diaries</a>
+  </section>
+
+  <!-- Diary Books Section -->
+  <section class="books" id="books">
+    <h2>Choose Your Diary</h2>
+    <div class="book-container">
+      <div class="book" onclick="window.location.href='diary.html'">
+        <img src="assets/images/book1.png" alt="Diary 1">
+        <h3>Classic Brown</h3>
+      </div>
+      <div class="book" onclick="window.location.href='diary.html'">
+        <img src="assets/images/book2.png" alt="Diary 2">
+        <h3>Ocean Blue</h3>
+      </div>
+      <div class="book" onclick="window.location.href='diary.html'">
+        <img src="assets/images/book3.png" alt="Diary 3">
+        <h3>Rose Red</h3>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
