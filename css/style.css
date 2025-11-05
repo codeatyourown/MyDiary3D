@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 15px 8%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #3b3b3b;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.signup-btn {
+  background: #4a6cf7;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom right, #f0f4ff, #ffffff);
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero span {
+  color: #4a6cf7;
+}
+
+.hero p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #4a6cf7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #2d4ae0;
+}
+
+/* Book Section */
+.books {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.book-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.book {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  width: 200px;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+}
+
+.book img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.book h3 {
+  margin-top: 10px;
+  color: #333;
+}
